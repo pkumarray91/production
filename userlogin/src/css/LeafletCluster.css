@@ -1,0 +1,50 @@
+.leaflet-container {
+  height: 495px;
+  width: 100%;
+  border-radius:10px;
+  background-size:cover;
+  align-items: center;
+  padding: 5px 2px 5px 5px;
+  margin: 7px 0px 7px 0px;
+
+}
+.marker-cluster-custom {
+  background: #9370db;
+  border: 3px solid #ededed;
+  border-radius: 50%;
+  color: #ededed;
+  height: 40px;
+  line-height: 37px;
+  text-align: center;
+  width: 40px;
+}
+
+.FullScreenMap {
+  position:fixed;
+    z-index:999;
+    background: white;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 20px;
+}
+a {
+    display: inline-block;
+}
+a .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: blue;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    top: 22%;
+    font-size: 12px;
+    right: 0;
+    font-weight: 600;
+    margin-right: -20px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+a:hover .tooltiptext {
+  visibility: visible;
+}

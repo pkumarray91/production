@@ -1,0 +1,61 @@
+
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index:-1 !important;
+    }
+.modal-header .close {
+   /* padding: 1rem 1rem;*/
+    color: red;
+    margin: -24px -21px 0px 0px;
+    opacity:10;
+    font-size:20px;
+}
+.modal-header{
+border-bottom: none !important;
+}
+.head{
+background-color:#025480;
+border-radius:10px 10px 0px 0px;
+/*padding:2px;*/
+margin:2px;
+ font-size:14px;
+ padding-bottom:10px;
+ border-bottom:none;
+
+}
+.viewchartbutton{
+    background-color: #025480;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 20px 10px 10px 10px;
+     border-radius: 30px;
+     border:0px solid;
+     width:100%;
+    -ms-flex-line-pack: center;
+}
+.viewchartbutton:hover{
+    background-color: #1e526d;
+    box-shadow:inset 4px 4px 0px 0px #00263c,inset -2px -2px 0px 0px #fff ;
+    transition: color 0.1s ease-in 0.32s, width 0.2s ease-in, font-size 0.1s ease-in 0.21s;
+}
+.line {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: black;
+}
+
+.circle .text {
+  fill: red;
+  font-size: 11px;
+  font-family: Sans-Serif, Arial;
+}

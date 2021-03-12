@@ -1,0 +1,73 @@
+.fuelscreen{
+    min-height:86vh;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+     color: #3a3939;
+     background-color: #f0eeef;
+     margin:0px 5px 5px 5px;
+     border-radius:15px;
+     overflow-y: scroll;
+}
+.fuelhead{
+box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+padding:5px;
+
+}
+.fuelbutton{
+     background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    text-align: center;
+    color: #025480;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+     border-radius: 30px;
+     border:0px solid;
+     width:100%;
+    -ms-flex-line-pack: center;
+}
+.fuelbutton:hover, .fuelbutton:active{
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    cursor:pointer;
+}
+.fueldropdown{
+    width: 100%;
+    line-height: 2;
+    padding: 5px 5px 5px 16px;
+    font-size: 13px;
+    color:#005383;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #d9d9d99e;
+    border-radius: 30px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -2px -3px 0px 0px #fff;
+}
+.fuelbg{
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 10px;
+  padding:10px 0px;
+  margin:10px 0px 10px 0px;
+  flex-basis: width;
+  display:block;
+  box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+  border: 1px solid #d9d9d99e;
+}
+.fuelbghead{
+    padding:10px;
+    margin-left:10px;
+  border-bottom: 2px solid #fff;
+}
+.date{
+    width: 65%;
+    line-height: 1;
+    padding: 5px;
+    font-size: 13px;
+    color:#005383;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #d9d9d99e;
+    border-radius: 30px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -2px -3px 0px 0px #fff;
+}

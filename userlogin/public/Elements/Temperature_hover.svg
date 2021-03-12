@@ -1,0 +1,34 @@
+<svg id="Temperature_ICON" data-name="Temperature ICON" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #3a3939;
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #3a3939;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_hover" class="cls-1">
+    <path id="Shape_330_1" data-name="Shape 330 1" class="cls-2" d="M19,29a6.988,6.988,0,0,1-3,5.74V35H15.592a6.951,6.951,0,0,1-7.184,0H8V34.74A6.991,6.991,0,0,1,8,23.26V5a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2V23.26A6.988,6.988,0,0,1,19,29Z"/>
+    <circle class="cls-3" cx="12" cy="29" r="3"/>
+    <path class="cls-4" d="M10.974,6.948h2V22.942h-2V6.948Z"/>
+    <path id="Rectangle_928_copy_3" data-name="Rectangle 928 copy 3" class="cls-4" d="M20,6H34V8H20V6Zm0,8h8v2H20V14Zm0-4H30v2H20V10Z"/>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    }
+.modal-header .close {
+   /* padding: 1rem 1rem;*/
+    color: red;
+    margin: -24px -21px 0px 0px;
+    opacity:10;
+    font-size:20px;
+}
+.modal-header{
+border-bottom: none !important;
+}
+.head{
+background-color:#025480;
+border-radius:10px 10px 0px 0px;
+/*padding:2px;*/
+margin:2px;
+ font-size:14px;
+ padding-bottom:10px;
+ border-bottom:none;
+
+}
+input[type='file']{
+ margin:20px;
+}
+div.upload {
+    width: auto;
+    height: 40px;
+    background: url('/Elements/Browse.svg');
+    background-repeat:no-repeat;
+    float:right;
+
+  overflow: hidden;
+}div.upload:hover {
+     background: url('/Elements/Browse_hover.svg');
+     background-repeat:no-repeat;
+     overflow: hidden;
+}
+
+div.upload input {
+    /*display: block !important;*/
+    width:100% !important;
+  /*  height: 57px !important;*/
+    opacity: 0 !important;
+    float:right;
+
+    /*overflow: hidden !important;*/
+}
+.filearea{
+ background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    color: #3a3939;
+    font-size: 12px;
+    font-weight: bold;
+    padding:8px;
+     border-radius: 30px;
+     position:fixed;
+     width:14%;
+     overflow: hidden;
+  text-overflow: ellipsis;
+
+}

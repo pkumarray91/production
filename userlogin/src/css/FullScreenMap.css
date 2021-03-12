@@ -1,0 +1,141 @@
+.leaflet-container {
+  height: 495px;
+  width: 100%;
+  border-radius:10px;
+  background-size:cover;
+  align-items: center;
+  padding: 5px 2px 5px 5px;
+  margin: 7px 0px 7px 0px;
+
+}
+
+.MapFull {
+    margin-top: 10px;
+    height: 550px;
+}
+.marker-cluster-custom {
+  background: #9370db;
+  border: 3px solid #ededed;
+  border-radius: 50%;
+  color: #ededed;
+  height: 40px;
+  line-height: 37px;
+  text-align: center;
+  width: 40px;
+}
+
+.imageMap {
+    position:fixed;
+    z-index:999;
+    background: black;
+}
+
+.summaryCounterMap1{
+font-weight:700;
+font-size:18px;
+position: fixed;
+z-index:999;
+margin-left: 16%;
+}
+
+.summaryCounterMap2{
+font-weight:700;
+font-size:18px;
+position: fixed;
+z-index:999;
+margin-left: 20%;
+}
+
+.summaryCounterMap3{
+font-weight:700;
+font-size:18px;
+position: fixed;
+z-index:999;
+margin-left: 24%;
+}
+
+.fullscreen {
+background: #FF0000;
+}
+a .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    top: 130px;
+    background-color:#fff;
+    font-size: 12px;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.FullScreenTab{
+display:flex;
+}
+.FullScreenMap{
+    background: white;
+    right: 86px;
+    border:1px solid #0005;
+    border-radius:3px;
+    width:32px;
+}
+.FullScreenButton{
+    position:fixed;
+    z-index:999;
+    background: white;
+    right: 10px;
+    margin-top: 86px;
+    border:1px solid #0005;
+    border-radius:3px;
+    width:32px;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+a:hover .tooltiptextFull {
+  visibility: visible;
+}
+/*Responsive*/
+/*mobile*/
+@media(min-width:992px){
+.FullScreenTab{
+display:none;
+}
+}
+@media (min-width: 280px) and (max-width:992px){
+.FullScreenMap{
+    right: -8px;
+    margin-top: 86px;
+}
+}
+
+@media (min-width: 993px) and (max-width:1024px){
+.FullScreenMap{
+    right: -2px;
+    margin-top: 86px;
+}
+}
+@media (min-width:1025px) and (max-width:1250px){
+.FullScreenMap{
+    right: -2px;
+    margin-top: 86px;
+}
+}
+@media (min-width: 1251px)and (max-width:1300px){
+.FullScreenMap{
+    right: -2px;
+    margin-top: 86px;
+}
+}
+@media (min-width: 1301px)and (max-width:1567px){
+.FullScreenMap{
+    right: -3px;
+    margin-top: 86px;
+}
+}
+@media (min-width: 1568px){
+.FullScreenMap{
+    right: -2px;
+    margin-top: 86px;
+}
+}
+

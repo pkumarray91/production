@@ -1,0 +1,33 @@
+<svg id="Geo_Fencing_icon" data-name="Geo Fencing icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #3a3939;
+        opacity: 0.23;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #3a3939;
+        stroke-width: 1px;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Hover" class="cls-1">
+    <path class="cls-2" d="M10.349,24.622l-5.766,3.11L6.89,33.175l11.531,3.888s10.059-.354,11.531-1.555,6.919-5.443,6.919-5.443l-2.306-3.888Z"/>
+    <path id="Locatoe_3" data-name="Locatoe 3" class="cls-3" d="M25.715,24.754c-0.5.777-1.168,1.777-1.886,2.775-1.743,2.422-3.752,4.88-3.752,4.88s-1.911-2.322-3.613-4.687c-1.16-1.612-2.211-3.255-2.683-4.007-3.016-4.207-3.826-8.3-3.752-10.1a10.671,10.671,0,0,1,1.535-5.33c2.367-3.489,6.492-4.041,8.374-4.067A10.76,10.76,0,0,1,28.87,8.566C32.5,13.887,28.017,21.492,25.715,24.754ZM20.147,9.267a4.558,4.558,0,1,0,4.536,4.558A4.547,4.547,0,0,0,20.147,9.267Z"/>
+  </g>
+</svg>

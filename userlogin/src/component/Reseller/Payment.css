@@ -1,0 +1,40 @@
+.bg-sec1 {
+    background-color: #f0eeef ;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+    margin:8px 0px 8px 16px ;
+    border-radius:30px;
+    color:#005383;
+    text-align:left;
+    padding:0px 0px 5px 30px;
+    font-size:14px;
+    }
+.bg-sec1:hover, .a bg-sec1:focus .a bg-sec1:active,
+ {
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    }
+.popover_modal .modal-content{
+    background-color: #f0eeef ;
+    color: #3a3939;
+    width:1366px;
+    border-radius:8px ;
+    border:none;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+    font-size:12px;
+    }
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    }
+
+
+#title{
+    font-size:14px;
+    position: absolute;
+    padding: 10px 0px 0px 10px;
+}
+cls{
+color:red;
+}

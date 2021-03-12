@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        fill: #3a3939;
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#005383"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="4.969" y="7" width="22.063" height="21" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#005383"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="15" y="4" width="2" height="11" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#005383"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logot" class="cls-1">
+    <g style="fill: none; filter: url(#filter-2)">
+      <path id="path" class="cls-2" d="M12,8A10.214,10.214,0,0,0,6,18a10.056,10.056,0,0,0,20,0A10.214,10.214,0,0,0,20,8" style="stroke: inherit; filter: none; fill: inherit"/>
+    </g>
+    <use xlink:href="#path" style="stroke: #000; filter: none; fill: none"/>
+    <rect class="cls-3" x="15" y="4" width="2" height="11" rx="1" ry="1"/>
+  </g>
+</svg>

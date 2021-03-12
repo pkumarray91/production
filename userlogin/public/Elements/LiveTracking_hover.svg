@@ -1,0 +1,32 @@
+<svg id="LIVE_VIEW_ICON" data-name="LIVE VIEW ICON" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #088cff;
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #303030;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Hover" class="cls-1">
+    <path class="cls-2" d="M4,32H36V4H35V31H5V5H35V4H4V32Zm11,0v2H10v2H30V34H25V32H15Z"/>
+    <path id="Locatoe_2" data-name="Locatoe 2" class="cls-3" d="M24.022,21.237c-0.323.469-.752,1.072-1.214,1.675-1.122,1.462-2.415,2.945-2.415,2.945s-1.23-1.4-2.325-2.829c-0.747-.973-1.423-1.965-1.727-2.418a10.565,10.565,0,0,1-2.415-6.1,6.157,6.157,0,0,1,.988-3.217A6.8,6.8,0,0,1,20.3,8.842a7.1,7.1,0,0,1,5.749,2.624C28.39,14.678,25.5,19.268,24.022,21.237ZM20.438,11.89a2.839,2.839,0,0,0-2.919,2.751,2.924,2.924,0,0,0,5.839,0A2.839,2.839,0,0,0,20.438,11.89Z"/>
+  </g>
+</svg>

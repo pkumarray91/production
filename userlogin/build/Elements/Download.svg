@@ -1,0 +1,43 @@
+<svg id="Group_3_copy_2" data-name="Group 3 copy 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="43" viewBox="0 0 43 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0eeef;
+        stroke: #e2dede;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #025480;
+      }
+    </style>
+    <filter id="filter" x="528" y="248" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-2.046" dy="-2.194" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" dx="2.264" dy="1.968" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236"/>
+      <feFlood result="flood-2" flood-color="#a1a1a1"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feFlood result="flood-3" flood-color="#f0eeef"/>
+      <feComposite result="composite-3" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-527.5 -247.5)" style="fill: #f0eeef; filter: url(#filter)">
+    <path id="Rounded_Rectangle_5_copy" data-name="Rounded Rectangle 5 copy" class="cls-1" d="M546.8,251a15.8,15.8,0,0,1,15.8,15.8h0a15.8,15.8,0,0,1-31.6,0h0A15.8,15.8,0,0,1,546.8,251Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-527.5 -247.5)" xlink:href="#Rounded_Rectangle_5_copy" style="stroke: #e2dede; filter: none; fill: none"/>
+  <path class="cls-2" d="M545,256h4v11h-4V256h0Z" transform="translate(-527.5 -247.5)"/>
+  <path class="cls-2" d="M540,265h14v2h-2v2h-2v2h-2v2h-2v-2h-2v-2h-2v-2h-2v-2Z" transform="translate(-527.5 -247.5)"/>
+  <path class="cls-2" d="M540,270h-2v6h18v-6h-2v4H540v-4Z" transform="translate(-527.5 -247.5)"/>
+</svg>

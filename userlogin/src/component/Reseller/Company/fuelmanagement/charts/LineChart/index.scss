@@ -1,0 +1,10 @@
+.line-chart {
+  &__path {
+    stroke: red;
+    z-index: auto;
+  }
+  &__circle {
+    fill: #f6c3d0;
+  }
+}
+

@@ -1,0 +1,123 @@
+.popover_modal .modal-content{
+    background-color: #f0eeef ;
+    color: #3a3939;
+    width:100%;
+    border-radius:8px ;
+    border:none;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+    font-size:12px;
+    }
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed !important;
+    width: 100% !important;
+    }
+.modal-header .close {
+   /* padding: 1rem 1rem;*/
+    color: red;
+    margin: -24px -21px 0px 0px;
+    opacity:10;
+    font-size:20px;
+}
+.modal-header{
+border-bottom: none !important;
+}
+.head{
+    background-color:#025480;
+    border-radius:10px 10px 0px 0px;
+    /*padding:2px;*/
+    margin:2px;
+    font-size:16px;
+    padding-bottom:10px;
+    border-bottom:none;
+
+}
+input[type='file']{
+    margin:10px;
+    margin-right:0px;
+}
+.download{
+    width: auto;
+    height: 40px;
+    background:  url('/Elements/Download.svg');
+    background-repeat:no-repeat;
+    margin-left:-15px;
+
+}
+.download:hover{
+    width: auto;
+    height: 40px;
+    background:  url('/Elements/Download_hover.svg');
+    background-repeat:no-repeat;
+    margin-left:-15px;
+    cursor:pointer;
+}
+
+div.upload {
+    width: auto;
+    height: 40px;
+    background: url('/Elements/Browse.svg');
+    background-repeat:no-repeat;
+    float:right;
+    cursor:pointer;
+}
+div.upload:hover {
+     background: url('/Elements/Browse_hover.svg');
+     background-repeat:no-repeat;
+     /*overflow: hidden;*/
+     cursor:pointer;
+}
+
+div.upload input {
+    width:100% !important;
+    opacity: 0 !important;
+    float:right;
+    cursor:pointer;
+    margin:10px;
+}
+.uploadfilearea{
+    background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    color: #3a3939;
+    font-size: 12px;
+    font-weight: bold;
+    padding:8px;
+    border-radius: 30px;
+    width:100%;
+}
+.uploadsavecancel{
+ background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    text-align: center;
+    color: #025480;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+     border-radius: 30px;
+    -ms-flex-line-pack: center;
+    width:100%;
+    border:none;
+}
+.uploadsavecancel:hover, .uploadsavecancel:active{
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    cursor:pointer;
+}
+#invalidMessages{
+    max-height:20vh;
+    overflow-y:scroll;
+    padding:0px;
+}
+.alert{
+    margin:1rem;
+    padding:0.5px;
+    width:100%;
+}
+.alert-heading {
+    font-size:14px !important;
+    font-weight:bold!important;
+}
+@media (min-width: 992px) {
+
+}

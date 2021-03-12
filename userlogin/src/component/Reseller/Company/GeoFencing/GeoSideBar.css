@@ -1,0 +1,1104 @@
+.maparea{
+    box-shadow: 3px 4px 2px 0px #a1a1a178,-2px -4px 2px 0px #fff ;
+    background-color: #f0eeef;
+    padding:10px;
+    margin:0px 5px;
+    border-radius:10px;
+}
+.geoside-details{
+font-size: 12px;
+padding: 10px 0px 0px;
+}
+.geoside-details:hover{
+background-color:#00538326;
+cursor:pointer;
+
+}
+
+.geoscrollarea{
+overflow-y: scroll;
+overflow-x: hidden;
+max-height: 65vh;
+}
+.geoscrollareaht{
+max-height: 84vh;
+}
+
+.geoseperator{
+   border-bottom: 2px solid #d3d3d3;
+    box-shadow: 0px 6px 0px -3px #fff;
+    margin: 5px;
+    }
+.geov-list{
+   background-color: #f0eeef;
+   padding-top: 0px;
+   margin: 3px 13px;
+
+}
+
+.geoside-search{
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+    line-height: 1.5;
+    padding: 5px 5px 5px 16px;
+    font-size: 12px;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #aca6a69e;
+    border-radius: 30px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -4px -3px 0px 0px #fff;
+ }
+.geosidebar-toggle {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: -36px;
+}
+.geosidebar {
+    left: -310px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-height: 87vh ;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 3px 4px 2px 0px #a1a1a178,-2px -4px 2px 0px #fff ;
+    background-color: #f0eeef;
+    color:#3a3939;
+    width:100%;
+    border-radius:8px;
+  /*  overflow-y: scroll;*/
+}
+.geosidebar.open {
+    left: 0;
+ position: absolute;
+   }
+
+/*::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}*/
+
+
+.geocontent.open {
+  left:264px;
+}
+.geocontent {
+  position: absolute;
+  left: -50px;
+  right:-6px;
+  height: 100%;
+/*  width:100%;*/
+  transition: left 0.3s ease-in-out;
+  z-index: -1;
+  margin-left: -20%;
+  margin-right : 1%;
+}
+.geobreadcum{
+margin: 10px 0px;
+border: 1px solid #aca6a69e;
+border-radius: 5px;
+box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -4px -3px 0px 0px #fff;
+height: 35px;
+padding: 9px 10px;
+font-size: 9px;
+}
+.NewUpload{
+     background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    text-align: center;
+    color: #025480;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border: #e0e0e0 solid 1px;
+    width:100%;
+    -ms-flex-line-pack: center;
+
+}
+
+.NewUpload:hover, .NewUpload:active{
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    cursor:pointer;
+}
+.delete{
+    font-size:14px;
+    color:#3a3939;
+}
+.delete:hover{
+    color:#98121f;
+     font-size:16px;
+
+
+}
+/*RIGHTSIDEBARCSS*/
+.rightscroll{
+overflow-y: scroll;
+max-height:84vh;
+overflow-x:hidden;
+}
+ .rightsidebar {
+    top: 0;
+    bottom: 0;
+    min-height:87vh;
+    box-shadow: -3px 3px 2px 0px #a1a1a178, 4px -2px 2px 0px #fff;
+    background-color: #f0eeef;
+    color: #3a3939;
+    border-radius: 8px;
+    float: right;
+    padding:0px;
+}
+.rightinputs{
+    margin: 15px 0px -8px 0px;
+    width: 100%;
+    line-height: 2;
+    padding: 5px 5px 5px 16px;
+    font-size: 13px;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #d9d9d99e;
+    border-radius: 30px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -2px -3px 0px 0px #fff;
+}
+
+.sections{
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: 0px 6px 0px -3px #fff;
+}
+.sectionor{
+    color:#3a3939;
+    margin:-8px 0px;
+}
+.note{
+font-size:14px;
+color:#3a3939;
+ background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    border-radius:10px;
+    padding:5px;
+    margin: 25px 0px;
+    font-weight:600;
+}
+.colorblock{
+        width:100%;
+        margin:0px;
+    padding:0px;
+    }
+.marginlow{
+    margin-left:-35px;
+}
+
+.rightdescription{
+
+    width: 100%;
+    height:130px;
+    padding: 5px 5px 5px 16px;
+    font-size: 13px;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #d9d9d99e;
+    border-radius: 10px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -2px -3px 0px 0px #fff;
+}
+
+.savecancel{
+     background-color: #f0eeef;
+    box-shadow: 2px 4px 2px 0px #a1a1a173, -3px -2px 0px 0px #fff;
+    text-align: center;
+    color: #025480;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+     border-radius: 30px;
+    -ms-flex-line-pack: center;
+    width:100%;
+    border:none;
+}
+.savecancel:hover, .savecancel:active{
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    cursor:pointer;
+}
+.autocomplete-dropdown-container{
+    margin-top:8px;
+    font-size:14px;
+    padding:0px 10px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow:inset 3px 2px 0px 0px #a1a1a1, inset -2px -3px 0px 0px #fff;
+    position:fixed;
+    z-index:9999;
+    width:15%;
+}
+@media (min-width: 280px) and (max-width:991px)
+{
+   .rightsidebar, .geosidebar{
+   display:none;
+    }
+}
+@media (min-width: 280px)
+    {
+.geocontent.open {
+    left: 28px;
+    right: -52px;
+}
+    }
+@media (min-width: 310px)
+    {
+
+.geocontent.open {
+    left: 30px;
+    right: -54px;
+}
+    .navbar-toggler{
+    margin: -53px 0px 0px 0px;
+    }
+    }
+
+     @media (min-width: 330px)
+    {
+.geocontent.open {
+    left: 32px;
+    right: -58px;
+}
+    }
+     @media (min-width: 350px)
+    {
+.geocontent.open {
+    left: 34px;
+    right: -62px;
+}
+    }
+    @media (min-width: 360px)
+    {
+.geocontent.open {
+    left: 38px;
+    right: -66px;
+}
+    }
+    @media (min-width: 380px)
+    {
+.geocontent.open {
+    left: 40px;
+    right: -70px;
+}
+    }
+@media (min-width: 400px)
+    {
+   .geocontent.open {
+    left: 42px;
+    right: -74px;
+}
+    }
+@media (min-width: 420px)
+    {
+    .geocontent.open {
+    left: 46px;
+    right: -78px;
+}
+    }
+@media (min-width: 460px)
+    {
+    .geocontent.open {
+    left: 54px;
+    right: -86px;
+}
+    }
+
+@media (min-width: 480px){
+    .geocontent.open {
+    left: 58px;
+    right: -90px;
+    }
+}
+@media (min-width: 500px){
+    .geocontent.open {
+    left: 62px;
+    right: -94px;
+    }
+}
+@media (min-width: 530px){
+    .geocontent.open {
+    left: 66px;
+    right: -100px;
+    }
+}
+@media (min-width: 560px){
+    .geocontent.open {
+    left: 69px;
+    right: -106px;
+    }
+}
+@media (min-width: 580px){
+    .geocontent.open {
+    left: 72px;
+    right: -110px;
+    }
+}
+@media (min-width: 600px){
+    .geocontent.open {
+    left: 74px;
+    right: -116px;
+    }
+}
+@media (min-width: 630px){
+    .geocontent.open {
+    left: 79px;
+    right: -122px;
+    }
+}
+@media (min-width: 660px){
+    .geocontent.open {
+    left: 84px;
+    right: -128px;
+    }
+}
+@media (min-width: 690px){
+    .geocontent.open {
+    left: 88px;
+    right: -132px;
+    }
+}
+@media (min-width: 720px){
+    .geocontent.open {
+    left: 92px;
+    right: -140px;
+    }
+}
+@media (min-width: 740px){
+    .geocontent.open {
+    left: 96px;
+    right: -144px;
+    }
+}
+@media (min-width: 760px){
+    .geocontent.open {
+    left: 98px;
+    right: -148px;
+    }
+}
+@media (min-width: 780px){
+    .geocontent.open {
+    left: 103px;
+    right: -154px;
+    }
+}
+@media (min-width: 810px){
+    .geocontent.open {
+    left: 108px;
+    right: -159px;
+    }
+}
+@media (min-width: 830px){
+    .geocontent.open {
+    left: 110px;
+    right: -163px;
+    }
+}
+@media (min-width: 860px){
+    .geocontent.open {
+    left: 116px;
+    right: -170px;
+    }
+}
+@media (min-width: 880px){
+    .geocontent.open {
+    left: 120px;
+    right: -174px;
+    }
+}
+@media (min-width: 900px){
+    .geocontent.open {
+    left: 120px;
+    right: -178px;
+    }
+}
+@media (min-width: 920px){
+    .geocontent.open {
+    left: 124px;
+    right: -182px;
+    }
+}
+@media (min-width: 940px){
+    .geocontent.open {
+    left: 127px;
+    right: -186px;
+    }
+}
+@media (min-width: 960px){
+    .geocontent.open {
+    left: 132px;
+    right: -190px;
+    }
+}
+@media (min-width: 990px){
+    .geocontent.open {
+    left: 136px;
+    right: -196px;
+    }
+}
+/*Laptop*/
+@media (min-width: 992px) {
+.geosidebar {
+    left: -164px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:8px;
+    }
+.geocontent.open{
+    left:140px;
+    right: 20px;/*on open map left*/
+    }
+.geocontent {
+    right:20px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -24px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 7px;
+      }
+.geov-list{
+   margin: 5px  5px;
+   margin-left:10px;
+}
+.geoside-details{
+    font-size:10px;
+}
+.sections{
+   display:none;
+}
+.sectionor{
+    font-size:10px;
+    margin:-10px;
+}
+.note{font-size:12px;}
+.savecancel{
+width:160%;
+margin-left:-10px;
+}
+.rightdescription{
+height:70px;
+}
+    }
+@media (min-width: 1030px) {
+.geosidebar {
+    left: -170px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:9px;
+    }
+.geocontent.open{
+    left:140px;
+    right: 18px;/*on open map left*/
+    }
+.geocontent {
+    right:20px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -29px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 9px;
+      }
+.note{font-size:14px;}
+.savecancel{
+width:160%;
+margin-left:-10px;
+}
+    }
+@media (min-width: 1050px) {
+.geosidebar {
+    left: -170px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:9px;
+    }
+.geocontent.open{
+    left:140px;
+    right: 18px;/*on open map left*/
+    }
+.geocontent {
+    right:20px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -29px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 9px;
+      }
+.note{font-size:14px;}
+.savecancel{
+width:160%;
+margin-left:-10px;
+}
+    }
+
+@media (min-width: 1080px) {
+.geosidebar {
+    left: -190px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:10px;
+    }
+.geocontent.open{
+    left:155px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -32px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 9px;
+      }
+.note{font-size:14px;}
+.savecancel{
+width:154%;
+margin-left:-6px;
+}
+    }
+@media (min-width: 1170px) {
+.geosidebar {
+    left: -190px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left:159px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -32px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 10px;
+      }
+.note{font-size:14px;}
+.savecancel{
+width:148%;
+margin-left:-6px;
+}
+.geoside-details{
+    font-size:12px;
+}
+    }
+@media (min-width: 1250px) {
+.geosidebar {
+    left: -210px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left:174px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -32px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 10px;
+      }
+.note{font-size:12px;}
+.savecancel{
+width:130%;
+margin-left:-6px;
+}
+.geoside-details{
+    font-size:12px;
+}
+.sectionor{
+    font-size:12px;
+    margin:-10px;
+}
+    }
+@media (min-width: 1330px) {
+.geosidebar {
+    left: -226px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left:184px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -40px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 10px;
+      }
+.note{font-size:13px;}
+.savecancel{
+width:130%;
+margin-left:-6px;
+margin-bottom:12px;
+}
+.rightdescription{
+height:105px;
+}
+.geoside-details{
+    font-size:12px;
+}
+.sectionor{
+    font-size:12px;
+    margin:-10px;
+}
+    }
+@media (min-width: 1400px) {
+.geosidebar {
+    left: -228px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left:189px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -40px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 10px;
+      }
+.note{font-size:14px;}
+.savecancel{
+width:130%;
+margin-left:-6px;
+}
+.geoside-details{
+    font-size:12px;
+}
+.sectionor{
+    font-size:12px;
+    margin:-10px;
+}
+.rightdescription{
+height:86px;
+}
+    }
+
+@media (min-width: 1450px) {
+.geosidebar {
+    left: -240px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left:196px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -45px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 10px;
+      }
+.note{font-size:15px;}
+.savecancel{
+width:130%;
+margin-left:-6px;
+}
+.geoside-details{
+    font-size:12px;
+}
+.sectionor{
+    font-size:12px;
+    margin:-10px;
+}
+    }
+@media (min-width: 1500px) {
+.geosidebar {
+    left: -250px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:11px;
+    }
+.geocontent.open{
+    left: 205px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -45px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 12px;
+      }
+.note{font-size:15px;}
+.savecancel{
+width:130%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:12px;
+}
+.sectionor{
+    font-size:12px;
+    margin:-10px;
+}
+    }
+@media (min-width: 1600px) {
+.geosidebar {
+    left: -260px;/*closed sidebar*/
+    }
+.geobreadcum{
+    font-size:14px;
+    }
+.geocontent.open{
+    left: 215px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -45px;/*closed sidebar and map*/
+    }
+.NewUpload{
+     font-size: 14px;
+      }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor{
+font-size:14px;
+}
+    }
+@media (min-width: 1650px) {
+.geosidebar {
+    left: -273px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 226px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -45px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 1700px) {
+.geosidebar {
+    left: -280px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 230px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -50px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 1800px) {
+.geosidebar {
+    left: -295px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 244px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -50px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 1850px) {
+.geosidebar {
+    left: -300px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 250px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -50px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 1900px) {
+.geosidebar {
+    left: -310px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 260px;
+    right: 16px;/*on open map left*/
+    }
+.geocontent {
+    right:16px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -50px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:120%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 1950px) {
+.geosidebar {
+    left: -320px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 264px;
+    right: 12px;/*on open map left*/
+    }
+.geocontent {
+    right:12px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -60px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:110%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-20px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 2000px) {
+.geosidebar {
+    left: -328px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 270px;
+    right: 12px;/*on open map left*/
+    }
+.geocontent {
+    right:12px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -60px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:110%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-5px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 2100px) {
+.geosidebar {
+    left: -345px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 284px;
+    right: 12px;/*on open map left*/
+    }
+.geocontent {
+    right:12px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -60px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:110%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-5px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (min-width: 2200px) {
+.geosidebar {
+    left: -360px;/*closed sidebar*/
+    }
+.geocontent.open{
+    left: 300px;
+    right: 12px;/*on open map left*/
+    }
+.geocontent {
+    right:12px;/*on collapse right*/
+    }
+.geocontent {
+    position: absolute;
+    left: -60px;/*closed sidebar and map*/
+    }
+.note{font-size:15px;}
+.savecancel{
+width:110%;
+margin-left:-5px;
+}
+.geoside-details{
+    font-size:16px;
+}
+.marginlow{
+    margin-left:-5px;
+    }
+.geoside-search, .rightinputs, .rightdescription, .sectionor, .geobreadcum, .NewUpload{
+font-size:14px;
+}
+    }
+@media (max-width: 1500px) {
+    .marginlow{
+    margin-left:-34px;
+    }
+    .colorblock ,.circlepicker{
+    overflow-y: scroll;
+    padding:0px;
+    margin:0px 0px -10px 0px;
+    }
+}
+@media (max-width: 1700px) {
+    .colorblock ,.circlepicker{
+    padding:0px;
+    margin:-10px 0px 5px 0px;
+    }
+}@media (max-width: 2000px) {
+    .colorblock ,.circlepicker{
+
+    padding:0px;
+    margin:0px 0px 20px 0px;
+    }
+}

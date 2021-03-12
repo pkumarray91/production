@@ -1,0 +1,107 @@
+.bg-sec1 {
+    background-color: #f0eeef ;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+    margin:8px 0px 8px 16px ;
+    border-radius:30px;
+    color:#005383;
+    text-align:left;
+    padding:0px 0px 5px 30px;
+    font-size:14px;
+    }
+.bg-sec1:hover, .a bg-sec1:focus .a bg-sec1:active,
+ {
+    background-color: #f0eeef;
+    box-shadow:inset 4px 4px 0px 0px #818181,inset -2px -2px 0px 0px #fff;
+    color:#005383;
+    }
+.special_modal .modal-content{
+    background-color: #f0eeef ;
+    color: #3a3939;
+    width:82%;
+    border-radius:8px ;
+    border:none;
+    box-shadow: 2px 4px 2px 0px #a1a1a173,-2px -4px 2px 0px #fff ;
+    font-size:12px;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+     overflow:hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.special_modal.fade .modal-content {
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  -webkit-transform: translate(0, -50px);
+  transform: translate(0, -50px);
+}
+.ReactModal__Body--open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    }
+
+.modal-header .close, .modal-header{
+    padding: 0rem 0rem;
+    margin: 0rem 0rem 0rem auto;
+    height: 10px;
+    line-height: 0.5;
+    border-bottom:none;
+
+   }
+
+.seperatormodal{
+   border-bottom: 2px solid #d3d3d3;
+    box-shadow: 0px 6px 0px -3px #fff;
+    margin: 5px;
+    }
+.spaces{
+padding-bottom: 11px;
+}
+.icon{
+width:32px;
+}
+@media (max-width: 1161px)
+{
+.icon{
+    width:24px;
+    }
+.special_modal .modal-content{
+    font-size:11px
+    }
+}
+@media (max-width: 1161px)
+{
+.icon{
+    width:20px;
+    }
+.special_modal .modal-content{
+    font-size:10px
+    }
+}
+@media (max-width: 1042px)
+{
+.icon{
+    width:18px;
+    }
+.special_modal .modal-content{
+    font-size:9px;
+    }
+}
+@media (max-width: 1028px)
+{
+.icon{
+    width:10px;
+    padding:0px;
+
+    }
+}
+@media (max-width: 992px)
+{
+.special_modal .modal-content{
+display:none;
+    }
+}

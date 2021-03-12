@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #286182;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f0eeef;
+        stroke-width: 2px;
+      }
+    </style>
+    <filter id="filter" x="1717.84" y="293.813" width="40" height="40" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#005383"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#96b6c9"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feOffset result="offset" dx="-1" dy="-1.732"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2" in="SourceAlpha"/>
+      <feFlood result="flood-3" flood-color="#00304b"/>
+      <feComposite result="composite-4" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dx="2.194" dy="2.046"/>
+      <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-1717.34 -293.313)" style="fill: #fff; filter: url(#filter)">
+    <path id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-1" d="M1737.84,293.82h0a20,20,0,0,1,20,20h0a20,20,0,0,1-20,20h0a20,20,0,0,1-20-20h0A20,20,0,0,1,1737.84,293.82Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-1717.34 -293.313)" xlink:href="#Rounded_Rectangle_1_copy_2" style="stroke: #286182; filter: none; fill: none"/>
+  <rect class="cls-2" x="10.66" y="10.687" width="20" height="20"/>
+</svg>

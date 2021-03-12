@@ -1,0 +1,29 @@
+<svg id="PLAYBACK_ICON" data-name="PLAYBACK ICON" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #3a3939;
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #3a3939;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="hover" class="cls-1">
+    <circle class="cls-2" cx="20" cy="20" r="16"/>
+    <path class="cls-3" d="M17.261,28.183v-16l9.98,8.727Z"/>
+  </g>
+</svg>

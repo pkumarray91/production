@@ -1,0 +1,44 @@
+<svg id="right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0eeef;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #005383;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="41" height="41" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" dx="1.509" dy="1.312" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236"/>
+      <feFlood result="flood-2" flood-color="#6d6d6d"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feFlood result="flood-3" flood-color="#f0eeef"/>
+      <feComposite result="composite-3" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+      <feGaussianBlur result="blur-3" in="SourceAlpha"/>
+      <feFlood result="flood-4" flood-color="#b5b5b5"/>
+      <feComposite result="composite-4" operator="out" in2="blur-3"/>
+      <feOffset result="offset-3" dx="-1"/>
+      <feComposite result="composite-5" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-4" in2="blend-3"/>
+      <feGaussianBlur result="blur-4" in="SourceAlpha"/>
+      <feFlood result="flood-5" flood-color="#cdcdcd"/>
+      <feComposite result="composite-6" operator="out" in2="blur-4"/>
+      <feOffset result="offset-4" dx="0.391" dy="-0.921"/>
+      <feComposite result="composite-7" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-5" in2="blend-4"/>
+    </filter>
+  </defs>
+  <rect id="Rounded_Rectangle_2221" data-name="Rounded Rectangle 2221" class="cls-1" x="2" y="3" width="32" height="32" rx="8" ry="8"/>
+  <path class="cls-2" d="M396,219v-2h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v7h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v16h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v7h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1Z" transform="translate(-386 -199)"/>
+</svg>

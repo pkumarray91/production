@@ -1,0 +1,25 @@
+<svg id="Alerts_ICON" data-name="Alerts ICON" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a3939;
+        stroke-linecap: round;
+        stroke-linejoin: bevel;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        fill: #3a3939;
+        font-family: "Segoe UI";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="normal">
+    <path class="cls-1" d="M4,36L19.484,4,36,36H4Z"/>
+    <text id="_" data-name="!" class="cls-2" x="17.308" y="30.742">!</text>
+  </g>
+</svg>

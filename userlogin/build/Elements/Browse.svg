@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="43" viewBox="0 0 43 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0eeef;
+        stroke: #e2dede;
+        stroke-linejoin: round;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #005383;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #005383;
+      }
+    </style>
+    <filter id="filter" x="528" y="248" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-2.046" dy="-2.194" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" dx="2.264" dy="1.968" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236"/>
+      <feFlood result="flood-2" flood-color="#a1a1a1"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feFlood result="flood-3" flood-color="#e3e3e3"/>
+      <feComposite result="composite-3" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-527.5 -247.5)" style="fill: #f0eeef; filter: url(#filter)">
+    <path id="Rounded_Rectangle_5_copy" data-name="Rounded Rectangle 5 copy" class="cls-1" d="M546.8,251h0.406a15.8,15.8,0,0,1,15.8,15.8v0.406a15.8,15.8,0,0,1-15.8,15.8H546.8a15.8,15.8,0,0,1-15.8-15.8V266.8A15.8,15.8,0,0,1,546.8,251Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-527.5 -247.5)" xlink:href="#Rounded_Rectangle_5_copy" style="stroke: #e2dede; filter: none; fill: none"/>
+  <path class="cls-2" d="M544.3,263.8H556.47c1.254,0,1.873,1.433,1.384,3.2l-3.1,8H538.041l3.1-8C541.631,265.236,543.043,263.8,544.3,263.8Z" transform="translate(-527.5 -247.5)"/>
+  <path id="Rectangle_2_copy" data-name="Rectangle 2 copy" class="cls-3" d="M543,259.8h6a4,4,0,0,1,4,4v10.4H539V263.8A4,4,0,0,1,543,259.8Z" transform="translate(-527.5 -247.5)"/>
+</svg>
